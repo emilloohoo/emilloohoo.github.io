@@ -1,0 +1,74 @@
+
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;	
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+ }
+ 
+ div#name {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 3px 5px 3px;
+ }
+ div#about {
+    display:flex;
+    justify-content: center;
+    padding: 0px 3px 10px 3px;
+ 
+ }
+ .about-padding{
+    padding: 0px 5px 0px 5px;
+ }
+ .title{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    margin: 9px 0px 5px 0px;
+    font-weight: bold;
+    font-size: 1.1em;
+ }
+ 
+ .experience > .title {
+    margin-bottom: 0px;
+ }
+ .company, .university, .project_name{
+    font-size:18px;
+    font-weight: bold;
+ }
+ 
+ .company_location, .university_location{
+    padding-left: 8px;
+ }
+ .job_title, .university, .project_description{
+    font-size: 16px;
+ }
+ .meta{
+    padding-top: 5px;
+ }
+ .date {
+    float: right;
+    font-size: 13px;
+ }
+ 
+ .col {
+    float: left;
+    width: 50%;
+ }
+ ul {
+    list-style-position: outside;
+    padding-left: 1em;
+    margin-top: .5em;
+ }​
+ 
+  /* Clear floats after the columns */
+  .list_skills:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
