@@ -1,5 +1,6 @@
-domain: emilloohoo.github.io
-url: https://emilloohoo.github.io
+domain: "emilloohoo.github.io"
+url: "https://emilloohoo.github.io"
+base_url: ""
 
 header:
   pages:
@@ -17,12 +18,11 @@ footer:
       link: mailto:brent.emilyy@gmail.com
   follow:
     - name: LinkedIn
-      link: http://linkedin.com/in/brentemi
+      link: https://linkedin.com/in/brentemi
     - name: GitHub
-      link: http://github.com/emilloohoo
+      link: https://github.com/emilloohoo
 
 # Build settings
-#theme: bay_jekyll_theme
 remote_theme: eliottvincent/bay
 plugins:
   - jekyll-feed

@@ -3104,7 +3104,7 @@ return Flickity;
 }( window, function factory( window, Flickity, Unipointer, utils ) {
 'use strict';
 
-var svgURI = 'http://www.w3.org/2000/svg';
+var svgURI = 'https://www.w3.org/2000/svg';
 
 // -------------------------- PrevNextButton -------------------------- //
 
