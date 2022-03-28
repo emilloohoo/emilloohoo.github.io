@@ -1,0 +1,65 @@
+contact:
+  name: Emily Brent
+  email: brent.emilyy@gmail.com
+  date_of_birth: 09/22/1996
+  job: Senior Software Engineer
+  location:
+    city: Chicago,
+    state: IL
+    zip: 60647
+  phone: '248-312-9150'
+objective: Software developer devoted to deliver awesome tech and prioritize self growth.
+experiences:
+  - company: Venmo
+    location: Chicago, IL
+    positions: 
+      - title: Senior Software Engineer
+        date_range: Mar 2022 - Present
+      - title: Software Engineer II
+        date_range: Mar 2020 - Mar 2022
+    summary: 
+      - Backend developer responsible for creating accessible APIs for native Venmo app clients (both Android/iOS)
+      - Successfully developed, tested, and launched Venmo’s first Credit Card from scratch
+      - Feature lead Venmo Credit Card rewards program and architected calculation logic for payout to customers
+      - Work closely with stakeholders and Synchrony Bank to align on desired product features and API contracts
+      - Create necessary on-call runbooks and Datadog monitors to alert team of ongoing production incidents
+      - Responsible for production deployments servicing millions of users
+  - company: Technology Services Group
+    location: Chicago, IL
+    positions: 
+      - title: Web Systems Developer / ECM Consultant
+        date_range: Mar 2019 - Mar 2020
+    summary: 
+      - Full-Stack developer and consultant developing configurable content management solutions for the web
+      - Created web applications using JavaScript/Backbone front end with a Java back-end
+      - Built an AngularJS application from scratch to configure the migration of client content through an interface
+      - Communicated and building relationships with clients to provide the best software solutions for their goals
+education:
+- institution: Michigan State University
+  degree: B.S. in Computer Science Engineering, Minor in Graphic Design
+  grad: December 2018
+skills:
+  column1:
+    - Skilled programming in Python/Django, C++, Java
+    - Experience with containerization and related technology like Docker and Kubernetes
+    - Well-versed with monitoring tools such as DataDog and Splunk
+    - Confident with event-based messaging systems like Kafka
+  column2:
+    - Extremely computer proficient, strong technical and analytical skills
+    - Web development knowledge such as HTML & CSS with Bootstrap 
+    - Both relational and NoSQL database management experience
+    - Strong leadership, time management, and social skills
+projects:
+- name: Volkswagen Car-Net demo app
+  description: Michigan State Capstone Project
+  summary: 
+    - Worked with Volkswagen to develop an app as a sales tool for dealers and their customers
+    - Demonstration app that allows for unauthenticated experience to use Volkswagen’s Car-Net features
+    - Capstone won Best-Overall at Michigan State University
+- name: Information and Communication Technology for Development
+  description: Study Abroad in Tanzania
+  summary: 
+    - Installed 20 computers and 2 projectors in 5 different schools
+    - Laid electrical and Ethernet wiring; mounted wireless access points
+    - Learned and set up a server with help from a native technician
+    - Trained students and teachers in general usage of computers

@@ -1,0 +1,25 @@
+header:
+  pages:
+  - name: Home
+    slug: /
+  - name: Blog  # <-- blog.md
+  - name: Resume 
+    layout: resume
+
+footer:
+  show_powered_by: false
+  contact:
+    - name: Email
+      value: brent.emilyy@gmail.com
+      link: mailto:brent.emilyy@gmail.com
+  follow:
+    - name: LinkedIn
+      link: http://linkedin.com/in/brentemi
+    - name: GitHub
+      link: http://github.com/emilloohoo
+
+# Build settings
+theme: bay_jekyll_theme
+plugins:
+  - jekyll-feed
+

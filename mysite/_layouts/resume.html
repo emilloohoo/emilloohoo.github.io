@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    {% include head.html %}
+
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href={{ "/assets/resume.css" | relative_url }} />
+</head>
+<body>
+    {% include header.html %}
+
+	<div class="container">
+        <header>
+            <div id="name">{{site.data.resume.contact.name}}</div>
+            
+            <div id="about">
+                <div class="location about-padding">
+                    <span class="city">{{site.data.resume.contact.location.city}}</span>		
+                    <span class="state">{{site.data.resume.contact.location.state}}</span>		
+                    <span class="zip">{{site.data.resume.contact.location.zip}}</span>	
+                </div>
+                <span>//</span>
+                <div class="phone about-padding">{{site.data.resume.contact.phone}}</div>
+                <span>//</span>
+                <div class="email about-padding">{{site.data.resume.contact.email}}</div>
+            </div>
+            
+        </header>
+        <!-- <section id="objective">
+            <div class="title">Objective</div>
+            <div class="description">
+                <p>
+                    {{site.data.resume.objective}}
+                </p>			
+            </div>
+        </section> -->
+        <section id="experiences">
+            <div class="title">Work Experience</div>
+            <div class="description">
+                {% for experience in site.data.resume.experiences %}
+                <!-- Experience 1 -->
+                <section class="experience">
+                    <span class="company">{{experience.company}}</span><span class="company_location">{{experience.location}}</span>
+                    <div class="meta">
+                        {% for position in experience.positions %}
+                        <div class="job_title"><span>{{position.title}}</span> <span class="date">{{position.date_range}}</span></div>
+                        {% endfor %}
+                        <ul>
+                            {% for summary in experience.summary %}
+                            <li>{{summary}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </section> 
+                {% endfor %}
+        </section>	
+    
+    
+        <section id="Education">
+            <div class="title">Education</div>
+            {% for university in site.data.resume.education %}
+            <span class="university">{{university.institution}}</span> <span class="university_location">{{university.university_location}}</span>
+            <div class="meta">
+                <span class="studied">{{university.degree}}</span><span class="date">{{university.grad}}</span>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section id="add_skills">
+            <div class="title">Additional Skills</div>
+            <div class="list_skills">
+                <div class="col">
+                    <ul>
+                        {% for skill in site.data.resume.skills.column1 %}
+                        <li>{{skill}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        {% for skill in site.data.resume.skills.column2 %}
+                        <li>{{skill}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </div> 
+        </section>
+        
+        <section id="projects">
+            <div class="title">Projects</div>
+            {% for project in site.data.resume.projects %}
+            <span class="project_name">{{project.name}}</span>
+            <div class="meta">
+                <span class="project_description">{{project.description}}</span>
+                <ul>
+                    {% for summary in project.summary %}
+                    <li>{{summary}}</li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+            {% endfor %}
+        </section>
+	
+	</div> <!-- end container -->
+
+    {% include footer.html %}
+    {% include foot.html %}
+</body>
+</html>
