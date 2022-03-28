@@ -5,7 +5,7 @@ header:
   pages:
   - name: Home
     slug: /
-  - name: Blog  # <-- blog.md
+  - name: Projects  # <-- blog.md
   - name: Resume 
     layout: resume
 

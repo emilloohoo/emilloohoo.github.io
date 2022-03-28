@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% include head.html %}
+    
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href={{ "/assets/flickity.css" | relative_url }} media="screen">
+        <link rel="stylesheet" href={{ "/assets/projects.css" | relative_url }}>
+        <script src={{ "/assets/flickity.pkgd.js" | relative_url }}></script>
+    </head>
+    <body>
+        {% include header.html %}
+
+            <!-- Flickity HTML init -->
+        <div class="gallery-container">
+        <div class="gallery-content">
+            <h3>Tech for Development in Tanzania</h3>
+            <p>Spent a month in Tanzania setting up computer systems in 5 different schools. This involved laying electrical and ethernet wiring, setting up a server, and mounting wireless access points. We trained teachers and students to use these computers to further their ability to both teach and learn. </p>
+        </div>
+            <div class="gallery js-flickity">
+                <img src={{ "/assets/img/tanzania4.jpg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/tanzania1.jpeg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/ethernet.jpg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/tanzania2.jpeg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/tanzania3.jpg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/mounting.jpg" | relative_url }} class="gallery-cell"/>
+                <img src={{ "/assets/img/school.jpg" | relative_url }} class="gallery-cell"/>
+
+            </div>
+        </div>
+          {% include footer.html %}
+          {% include foot.html %}
+      </body>
+      </html>
