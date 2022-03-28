@@ -22,7 +22,7 @@ footer:
       link: http://github.com/emilloohoo
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: bay_jekyll_theme
 plugins:
   - jekyll-feed
 
