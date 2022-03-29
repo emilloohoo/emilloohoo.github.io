@@ -1,0 +1,19 @@
+projects:
+  - title: CodeNation
+    desc: Code Nation provides underprivlidged kids the tools necessary to both learn to code, and create career oppurtunities in tech. As a volunteer, I spend twice a week throughout the school year working with high schoolers to learn web development. With a classroom of around 12 kids, it's incredible to see how much they learn in such a short period of time.
+    images:
+      - /assets/img/projects/codenation/codenationlogo.jpg
+    link: https://codenation.org/
+
+  - title: Tech for Development in Tanzania
+    desc: Spent a month in Tanzania setting up computer systems in 5 different schools. This involved laying electrical and ethernet wiring, setting up a server, and mounting wireless access points. We trained teachers and students to use these computers to further their ability to both teach and learn.  
+    images:
+      - /assets/img/projects/tanzania/tanzania4.jpg
+      - /assets/img/projects/tanzania/tanzania1.jpeg
+      - /assets/img/projects/tanzania/ethernet.jpg
+      - /assets/img/projects/tanzania/tanzania2.jpeg
+      - /assets/img/projects/tanzania/tanzania3.jpg
+      - /assets/img/projects/tanzania/mounting.jpg
+      - /assets/img/projects/tanzania/school.jpg
+    link: https://www.egr.msu.edu/education-abroad/program/ict-development-tanzania
+

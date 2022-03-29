@@ -13,24 +13,21 @@
     <body>
         {% include header.html %}
 
-            <!-- Flickity HTML init -->
+        {% for project in site.data.projects.projects %}            
         <div class="gallery-container">
         <div class="gallery-content">
-            <h3>Tech for Development in Tanzania</h3>
-            <p>Spent a month in Tanzania setting up computer systems in 5 different schools. This involved laying electrical and ethernet wiring, setting up a server, and mounting wireless access points. We trained teachers and students to use these computers to further their ability to both teach and learn. </p>
+            <h3>{{project.title}}</h3>
+            <p>{{project.desc}} </p>
+            <a class="link" href={{project.link}}>learn more</a>
         </div>
-            <div class="gallery js-flickity">
-                <img src={{ "/assets/img/tanzania4.jpg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/tanzania1.jpeg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/ethernet.jpg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/tanzania2.jpeg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/tanzania3.jpg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/mounting.jpg" | relative_url }} class="gallery-cell"/>
-                <img src={{ "/assets/img/school.jpg" | relative_url }} class="gallery-cell"/>
-
-            </div>
+        <div class="gallery js-flickity">
+            {% for image_path in project.images %}            
+            <img src={{ image_path | relative_url }} class="gallery-cell"/>                        
+            {% endfor %}
         </div>
+        </div>
+        {% endfor %}
           {% include footer.html %}
           {% include foot.html %}
-      </body>
-      </html>
+    </body>
+</html>
