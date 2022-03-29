@@ -4,23 +4,11 @@ profile_picture:
   src: /assets/img/profile-pic.jpg
   alt: website picture
 ---
-<h3>Hi!</h3>
-<p>
-  Welcome to my site. Here you will find a few of my most cherished projects, my resume, and some links to my social media pages. Please feel free to reach out and hope you enjoy perusing!
-</p>
-<h3> About me</h3>
-<p>
-  Senior Software Engineer at <a href="https://venmo.com/">Venmo</a>
-</p>
-<p>
-  Cat and dog momma
-</p>
-<p>
-  Travel >>>
-</p>
-<p>
-  Love to go camping and forget to shower but I also like nice things
-</p>
-<p>
-  Passionate about tech (owning, admiring and developing)
-</p>
+
+<h3>{{site.data.home.hello.title}}</h3>
+<p>{{site.data.home.hello.subtitle}}</p>
+<h3>{{site.data.home.about.title}}</h3>
+
+  {% for bullet in site.data.home.about.bullets %}
+  <p>{{bullet}}</p>
+  {% endfor %}

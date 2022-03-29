@@ -5,6 +5,7 @@ base_url: ""
 header:
   pages:
   - name: Home
+    layout: home
     slug: /
   - name: Projects  # <-- blog.md
   - name: Resume 
