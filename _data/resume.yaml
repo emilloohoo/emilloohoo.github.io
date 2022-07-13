@@ -10,11 +10,17 @@ contact:
   phone: '248-312-9150'
 objective: Software developer devoted to deliver awesome tech and prioritize self growth.
 experiences:
+  - company: Tandem
+    location: Remote
+    positions: 
+      - title: Founding Engineer
+        date_range: July 2022 - Present
+    summary: 
   - company: Venmo
     location: Chicago, IL
     positions: 
       - title: Senior Software Engineer
-        date_range: Mar 2022 - Present
+        date_range: Mar 2022 - July 2022
       - title: Software Engineer II
         date_range: Mar 2020 - Mar 2022
     summary: 
