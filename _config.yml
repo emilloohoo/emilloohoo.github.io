@@ -14,7 +14,8 @@ header:
 footer:
   show_powered_by: false
   contact:
-    - name: Email
+    - type: email
+      name: Email
       value: brent.emilyy@gmail.com
       link: mailto:brent.emilyy@gmail.com
   follow:
