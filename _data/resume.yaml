@@ -16,6 +16,22 @@ experiences:
       - title: Founding Engineer
         date_range: July 2022 - Present
     summary: 
+      - Full-Stack engineer for Tandem - a finance app for couples
+        - Raised over $3.7M in seed funding and achieved over 80K signups, contributing to a rapid product-market fit
+      - Successfully developed, tested, and shipped an iOS app from scratch
+        - Eventually re-wrote our entire SwiftUI app, moving from MVVM design patterns to TCA, for modularity and scalability
+      - Designed and implemented robust backend systems
+        - Developed GraphQL APIs with Apollo Server, written in Typescript
+        - Integrated MongoDB using Mongoose for efficient database management
+      - Architected and optimized infrastructure and deployments
+        - Managed CI/CD pipelines with AWS CodePipeline and ECS/Fargate for seamless deployments
+        - Set up and monitored system performance using DataDog for metrics and alerting
+      - Worked along-side product to enhance user experience
+        - Integrated with LaunchDarkly for feature gating and ran A/B tests to find the best solutions for our users
+        - Implemented Mixpanel into our platform to view user analytics and decide our next features with these results
+      - Worked along side 2 other developers with extremely high velocity, shipping new app versions weekly
+      - Leveraged StoreKit for subscription management, and AppStore Connect for release management
+      - Worked closely with 3rd parties, most notably Plaid, to implement transaction synchronization into our app
   - company: Venmo
     location: Chicago, IL
     positions: 
@@ -46,15 +62,17 @@ education:
   grad: December 2018
 skills:
   column1:
-    - Skilled programming in Python/Django, C++, Java
+    - Skilled programming in Python/Django, Typescript
     - Experience with containerization and related technology like Docker and Kubernetes
-    - Well-versed with monitoring tools such as DataDog and Splunk
-    - Confident with event-based messaging systems like Kafka
+    - Experience with containerization and related technology like Docker and Kubernetes
+    - Confident with event-based messaging systems like Kafka and AWS Lambda
+    - Well-versed with monitoring tools such as DataDog
   column2:
-    - Extremely computer proficient, strong technical and analytical skills
-    - Web development knowledge such as HTML & CSS with Bootstrap 
-    - Both relational and NoSQL database management experience
+    - DevOps experience including AWS CloudWatch, CodePipeline, and Fargate for ECS
+    - Additional AWS knowledge including S3
+    - Both relational and NoSQL (MongoDB) database management experience
     - Strong leadership, time management, and social skills
+    - App Store Connect
 projects:
 - name: Volkswagen Car-Net demo app
   description: Michigan State Capstone Project
