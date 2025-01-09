@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/tandem-headshot.png
+  src: ./assets/img/tandem-headshot.png
   alt: website picture
 ---
 
