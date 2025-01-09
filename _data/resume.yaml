@@ -1,5 +1,5 @@
 contact:
-  name: Emily Brent
+  name: Emily LaFollette
   email: brent.emilyy@gmail.com
   date_of_birth: 09/22/1996
   job: Senior Software Engineer
@@ -17,18 +17,11 @@ experiences:
         date_range: July 2022 - Present
     summary: 
       - Full-Stack engineer for Tandem - a finance app for couples
-        - Raised over $3.7M in seed funding and achieved over 80K signups, contributing to a rapid product-market fit
+      - Raised over $3.7M in seed funding and achieved over 80K signups, contributing to a rapid product-market fit
       - Successfully developed, tested, and shipped an iOS app from scratch
-        - Eventually re-wrote our entire SwiftUI app, moving from MVVM design patterns to TCA, for modularity and scalability
-      - Designed and implemented robust backend systems
-        - Developed GraphQL APIs with Apollo Server, written in Typescript
-        - Integrated MongoDB using Mongoose for efficient database management
-      - Architected and optimized infrastructure and deployments
-        - Managed CI/CD pipelines with AWS CodePipeline and ECS/Fargate for seamless deployments
-        - Set up and monitored system performance using DataDog for metrics and alerting
-      - Worked along-side product to enhance user experience
-        - Integrated with LaunchDarkly for feature gating and ran A/B tests to find the best solutions for our users
-        - Implemented Mixpanel into our platform to view user analytics and decide our next features with these results
+      - Designed and implemented robust backend systems (GraphQL with Apollo Server, Typescript/ExpressJS)
+      - Architected and optimized infrastructure and deployments and Managed CI/CD pipelines with AWS CodePipeline and ECS/Fargate
+      - Set up and monitored system performance using DataDog for metrics and alerting
       - Worked along side 2 other developers with extremely high velocity, shipping new app versions weekly
       - Leveraged StoreKit for subscription management, and AppStore Connect for release management
       - Worked closely with 3rd parties, most notably Plaid, to implement transaction synchronization into our app

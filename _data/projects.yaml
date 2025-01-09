@@ -1,4 +1,10 @@
 projects:
+  - title: Tandem - Finance App for Couples
+    desc: Developed an iOS app for an early aged startup alongside an incredible team of 6
+    images:
+      - /assets/img/projects/tandem/tandem-app-store-photos.png
+    link: https://apps.apple.com/us/app/tandem-living-together/id1636705869
+
   - title: CodeNation
     desc: Code Nation provides underprivlidged kids the tools necessary to both learn to code, and create career oppurtunities in tech. As a volunteer, I spend twice a week throughout the school year working with high schoolers to learn web development. With a classroom of around 12 kids, it's incredible to see how much they learn in such a short period of time.
     images:
