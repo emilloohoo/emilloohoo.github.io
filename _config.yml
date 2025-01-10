@@ -4,7 +4,7 @@ author: Emily LaFollette
 
 domain: "emilloohoo.github.io"
 url: "https://emilloohoo.github.io"
-base_url: ""
+base_url: "/home"
 
 header:
   pages:
