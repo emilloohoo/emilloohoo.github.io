@@ -1,12 +1,3 @@
 @use "variables" with (
   $base-url: ""
-);
-@use "mixins";
-@use "extends";
-@use "base";
-@use "layout";
-@use "site";
-@use "work";
-@use "blog";
-@use "post";
-@use "not_found";
+);@use "mixins";@use "extends";@use "base";@use "layout";@use "site";@use "work";@use "blog";@use "post";@use "not_found"
