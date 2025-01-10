@@ -25,7 +25,7 @@ footer:
       link: https://github.com/emilloohoo
 
 # Build settings
-theme: bay_jekyll_theme
+remote_theme: eliottvincent/bay
 plugins:
   - jekyll-feed
 
