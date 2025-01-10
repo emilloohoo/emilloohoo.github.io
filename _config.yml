@@ -1,10 +1,10 @@
-title: Emily LaFollette
+title: Emily
 repository: emilloohoo/emilloohoo.github.io
 author: Emily LaFollette
 
 domain: "emilloohoo.github.io"
 url: "https://emilloohoo.github.io"
-base_url: "/home"
+base_url: ""
 
 header:
   pages:
@@ -28,7 +28,6 @@ footer:
     - name: GitHub
       link: https://github.com/emilloohoo
 
-# Build settings
 # Build settings
 remote_theme: eliottvincent/bay
 markdown: kramdown
