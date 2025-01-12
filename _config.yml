@@ -35,6 +35,8 @@ sass:
 plugins:
   - jekyll-feed
 
+remote_theme: eliottvincent/bay
+
 # Excluded items
 exclude:
   - .sass-cache/
