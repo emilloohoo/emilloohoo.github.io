@@ -59,13 +59,13 @@ skills:
     - Experience with containerization and related technology like Docker and Kubernetes
     - Experience with containerization and related technology like Docker and Kubernetes
     - Confident with event-based messaging systems like Kafka and AWS Lambda
-    - Well-versed with monitoring tools such as DataDog
   column2:
     - DevOps experience including AWS CloudWatch, CodePipeline, and Fargate for ECS
     - Additional AWS knowledge including S3
     - Both relational and NoSQL (MongoDB) database management experience
     - Strong leadership, time management, and social skills
     - App Store Connect
+    - Well-versed with monitoring tools such as DataDog
 projects:
 - name: Volkswagen Car-Net demo app
   description: Michigan State Capstone Project
